@@ -1,0 +1,50 @@
+.pda{
+    margin-top: 20px;
+    margin-bottom:20px ;
+    bottom: 0;
+}
+.pda .pagination{
+    text-align: center;
+    margin: 30px, 30px, 60px;
+    user-select: none;
+
+}
+.pda .pagination li{
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 5px, 25px rgba(1, 1, 1, 10%);
+
+}
+.pda .pagination li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 45px;
+}
+.pda  .previous-page:hover{
+    transform: translateX(-5px);
+}
+.pda .next-page:hover{
+    transform: translateX(5px);
+}
+.pda .previous-page , .next-page{
+    background-color:  #0ab1ce;
+    width: 80px;
+    border-radius: 45px;
+    cursor:pointer;
+    transition: 0.3s ease;
+
+}
+.pda .current-page, .dots, .page-item{
+    background: #ccc;
+    width: 45px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+.pda  .active{
+    background-color: #0ab1ce;
+}
+.pda .disable{
+    background: #ccc;
+}
